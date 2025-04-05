@@ -1,0 +1,40 @@
+/* 通用樣式 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #30d2e8;  /* 設置背景顏色為淺藍色 */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 頁首樣式 */
+  header {
+    background-color: #6881e7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* 內容區域 */
+  section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;  /* 這裡依然可以讓區塊有白色背景，若需要也可以改成其他顏色 */
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+
+  .content {
+    background-color: white;  /* 讓 .content 區塊的背景是白色 */
+    padding: 20px;
+    margin: 10px 0;  /* 設置上下邊距 */
+    border-radius: 8px;  /* 添加圓角 */
+  }
+  
